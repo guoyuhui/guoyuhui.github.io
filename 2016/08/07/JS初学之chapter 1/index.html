@@ -84,15 +84,37 @@
 
 
 
-<meta name="description" content="不断新生是通向自由的唯一道路">
-<meta property="og:type" content="website">
-<meta property="og:title" content="I am {guoyuhui}">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="strings 字符串（位于双引号中的text）
+只要strings中backslash\，说明后面的character有特殊意义。this is called escaping the character.
+因为双引号引用的内容不能分行，反斜杠加字母表示的特殊意义就派上用场了。eg：\n 这就是一个换行的escaping。
+
+strings之间不能-，*，/，但可以+。
+
+
+typeof运算符（">
+<meta property="og:type" content="article">
+<meta property="og:title" content="chapter 1:values,types,operators">
+<meta property="og:url" content="http://yoursite.com/2016/08/07/JS初学之chapter 1/index.html">
 <meta property="og:site_name" content="I am {guoyuhui}">
-<meta property="og:description" content="不断新生是通向自由的唯一道路">
+<meta property="og:description" content="strings 字符串（位于双引号中的text）
+只要strings中backslash\，说明后面的character有特殊意义。this is called escaping the character.
+因为双引号引用的内容不能分行，反斜杠加字母表示的特殊意义就派上用场了。eg：\n 这就是一个换行的escaping。
+
+strings之间不能-，*，/，但可以+。
+
+
+typeof运算符（">
+<meta property="og:updated_time" content="2016-08-07T05:52:34.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="I am {guoyuhui}">
-<meta name="twitter:description" content="不断新生是通向自由的唯一道路">
+<meta name="twitter:title" content="chapter 1:values,types,operators">
+<meta name="twitter:description" content="strings 字符串（位于双引号中的text）
+只要strings中backslash\，说明后面的character有特殊意义。this is called escaping the character.
+因为双引号引用的内容不能分行，反斜杠加字母表示的特殊意义就派上用场了。eg：\n 这就是一个换行的escaping。
+
+strings之间不能-，*，/，但可以+。
+
+
+typeof运算符（">
 
 
 
@@ -113,9 +135,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/08/07/JS初学之chapter 1/"/>
 
-  <title> I am {guoyuhui} </title>
+  <title> chapter 1:values,types,operators | I am {guoyuhui} </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,9 +158,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -205,9 +225,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -227,10 +247,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/08/07/JS初学之chapter 1/" itemprop="url">
-                  chapter 1:values,types,operators
-                </a>
+                chapter 1:values,types,operators
               
             
           </h1>
@@ -277,27 +294,64 @@
       
 
       
-        
-          
-          strings 字符串（位于双引号中的text）
-只要strings中backslash\，说明后面的character有特殊意义。this is called escaping the character.
-因为双引号引用的内容不能分行，反斜杠加字母表示的特殊意义就派上用场了。eg：\n 这就是一
-          ...
+        <h2 id="strings-字符串（位于双引号中的text）"><a href="#strings-字符串（位于双引号中的text）" class="headerlink" title="strings 字符串（位于双引号中的text）"></a>strings 字符串（位于双引号中的text）</h2><ul>
+<li><p>只要strings中backslash\，说明后面的character有特殊意义。this is called escaping the character.</p>
+<p>因为双引号引用的内容不能分行，反斜杠加字母表示的特殊意义就派上用场了。<br>eg：\n 这就是一个换行的escaping。</p>
+</li>
+<li><p>strings之间不能-，*，/，但可以+。</p>
+</li>
+</ul>
+<h2 id="typeof运算符（并不是所有的运算符都是符号）"><a href="#typeof运算符（并不是所有的运算符都是符号）" class="headerlink" title="typeof运算符（并不是所有的运算符都是符号）."></a>typeof运算符（并不是所有的运算符都是符号）.</h2><ul>
+<li>typeof产生的string value取决于你给他的值的类型</li>
+<li>typeof是一元运算符</li>
+<li>-即可做一元运算符（负），也可以做二元（减）</li>
+</ul>
+<h2 id="Boolean值有两个："><a href="#Boolean值有两个：" class="headerlink" title="Boolean值有两个："></a>Boolean值有两个：</h2><p>true &amp; false</p>
+<h2 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h2><blockquote>
+<p>=,&lt;=,==,!=</p>
+<ul>
+<li>在JS中只有一个数不等于它自己，那就是NaN，因为它什么也不代表，指的是无意义的计算，所以它不等于任何其他无意义的计算。</li>
+</ul>
+</blockquote>
+<ul>
+<li>JS中的大小写字母，符号等都可以用来比较，这根Unicode有关。<br>eg：Z&lt;a</li>
+</ul>
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><p>有三个可以用在布尔系数中，and，or，not</p>
+<ul>
+<li>&amp;&amp;代表and，二元运算符，前后都对，运算结果才是true</li>
+<li>||代表or，二元运算符，前后有一个对，结果就是true</li>
+<li>！代表not，一元运算符，结果于！后的真假相反。</li>
+<li>？：三元运算符，也叫条件运算符。问号前是true，选中间值，是false选右边的值。<br>eg—— true？1：2 选1</li>
+<li>各种运算符先后顺序：（越往右算的越早）<br>||&lt;&amp;&amp;&lt;比较运算符&lt;其他</li>
+</ul>
+<h2 id="不定值"><a href="#不定值" class="headerlink" title="不定值"></a>不定值</h2><p>null和undefined，用来表示有意义值的缺失，他们是不定值，但不携带任何信息。</p>
+<ul>
+<li><p>当我们想验证得出的值是否有意义时，可以用比较运算符==或者！=跟null或者undefined比较，得出true或false</p>
+</li>
+<li><p>在布尔体系中，NaN，“”，和0都被认为是false，其它值则均为true。所以，0==false是true。</p>
+</li>
+<li>如果你想精确的知道两个值是否相等怎么办，可以用===，完全相等。所以，0===false是false。</li>
+</ul>
+<h2 id="逻辑运算符的短回路"><a href="#逻辑运算符的短回路" class="headerlink" title="逻辑运算符的短回路"></a>逻辑运算符的短回路</h2><ul>
+<li>||运算符，当左边值可以被布尔系数转为true时，它输出左边值；反之输出右边值。</li>
+<li>&amp;&amp;运算符，与||刚好相反。</li>
+<li>被选取之外的值永外不会被检测。三元运算符也是一样，选了其中一个之后，另外一个就不会被检测到了。</li>
+</ul>
 
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/08/07/JS初学之chapter 1/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
       
     </div>
 
     <div>
       
+        
+
+      
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -305,128 +359,32 @@
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/07/29/财富自由之路之一/" rel="next" title="get a free road to weath">
+                <i class="fa fa-chevron-left"></i> get a free road to weath
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/07/29/财富自由之路之一/" itemprop="url">
-                  get a free road to weath
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-29T17:21:12+08:00" content="2016-07-29">
-              2016-07-29
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/07/29/财富自由之路之一/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/07/29/财富自由之路之一/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-          财富只是工具，我们要的自由本质是时间的自主权‘所谓的财富自由，指的是某个人再也不用为了满足生活必需而出售自己的时间了。
-为什么很多人都在追这个闪着金光的东西，却没有以期望的速度朝他靠近？
-‘因为：绝大数人在追求某个东西的时候，连那个东西的定义都没有搞清楚！’
-大脑升级考践行道理这东西，说再多也没用，
-          ...
-
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2016/07/29/财富自由之路之一/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -434,6 +392,17 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -453,8 +422,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -501,6 +479,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#strings-字符串（位于双引号中的text）"><span class="nav-number">1.</span> <span class="nav-text">strings 字符串（位于双引号中的text）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#typeof运算符（并不是所有的运算符都是符号）"><span class="nav-number">2.</span> <span class="nav-text">typeof运算符（并不是所有的运算符都是符号）.</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Boolean值有两个："><span class="nav-number">3.</span> <span class="nav-text">Boolean值有两个：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#比较运算符"><span class="nav-number">4.</span> <span class="nav-text">比较运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#逻辑运算符"><span class="nav-number">5.</span> <span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#不定值"><span class="nav-number">6.</span> <span class="nav-text">不定值</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#逻辑运算符的短回路"><span class="nav-number">7.</span> <span class="nav-text">逻辑运算符的短回路</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -604,6 +593,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
@@ -620,9 +613,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'guoyuhui';
-      var disqus_identifier = 'index.html';
-      var disqus_title = "";
-      var disqus_url = '';
+      var disqus_identifier = '2016/08/07/JS初学之chapter 1/';
+      var disqus_title = "chapter 1:values,types,operators";
+      var disqus_url = 'http://yoursite.com/2016/08/07/JS初学之chapter 1/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
@@ -633,6 +626,8 @@
       }
 
       run_disqus_script('count.js');
+      
+        run_disqus_script('embed.js');
       
     </script>
   
